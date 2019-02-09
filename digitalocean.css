@@ -1,0 +1,174 @@
+/* Creazione della nav */
+.section-one{
+  background-image: url("https://www.digitalocean.com/assets/media/homepage/hero-background-c9490927.svg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav{
+  height:90px;
+}
+
+.navBar{
+  line-height: 90px;
+  position: fixed;
+  padding-bottom: 50px;
+}
+
+.navBar .logo>img{
+  width:172px;
+}
+
+.navBar>.left-part{
+  padding-right: 100px;
+}
+
+.navBar>.right-part{
+  padding-left: 50px;
+}
+
+.navBar ul{
+  list-style: none;
+}
+
+.navBar ul>li{
+  padding: 0 10px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.navBar ul>li>a{
+  color: hsla(0,0%,100%,.7);
+  text-decoration: none;
+}
+
+#signup{
+  font-size: 600;
+  color:#FFFF;
+  border: 1px solid hsla(0,0%,100%,.5);
+  height: 50%;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/* Creazione header */
+
+header{
+  height:800px;
+  padding: 64px;
+}
+
+.header-left{
+  padding: 16px 0 0 16px;
+}
+
+.header-left>h1{
+  font-size: 62px;
+  letter-spacing: -1.55px;
+  line-height: 1.18;
+  font-weight: 600;
+  color: #FFFF;
+  margin-bottom: 16px;
+}
+
+.header-left>p{
+  color: #FFFF;
+  opacity: .8;
+  font-size: 20px;
+  margin-bottom: 32px;
+}
+
+.header-right>.info-square{
+  width:462px;
+  height: 477.33px;
+  background-color: #FFFF;
+  border: 1px solid rgba(3,27,78,.1);
+  border-radius: 5px;
+  padding: 32px;
+}
+
+.header-right>.info-square>.title>h2{
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: #031b4e;
+  text-align: center
+}
+
+.header-right>.info-square>.title>h2>span{
+  color: #0069ff;
+  display: inline-block;
+  margin-top: 16px;
+}
+
+
+.header-right>.info-square>.form>input{
+  display:block;
+  height: 48px;
+  border-radius: 5px;
+  width: 100%;
+  position: relative;
+  padding: 0 16px;
+  border: 1px solid #f1f1f1;
+  background: #fff;
+  color: rgba(3,27,78,.7);
+  margin: 20px 0;
+}
+
+.button{
+  width:100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  height: 48px;
+  line-height: 48px;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom:20px;
+}
+
+#your-account{
+  background-color: #0069ff;
+  color: #FFFF;
+}
+
+#sign-google{
+  background-color: #eeee;
+  color: #757575;
+}
+
+#sign-google>img{
+  width:18px;
+  height: 18px;
+}
+
+.agree-cond{
+  text-align: center;
+  font-size: 12px;
+  padding-top: 16px;
+  margin: 0 0 16px
+}
+
+.agree-cond>p>a{
+  text-decoration: underline;
+}
+
+.agree-cond>p>a:hover{
+  cursor: pointer;
+  color: #0069ff;
+}
+
+@media all and (min-width: 960px){
+    header {
+    min-height: 800px;
+  }
+
+  .header-left{
+    max-width: 50%;
+  }
+}
