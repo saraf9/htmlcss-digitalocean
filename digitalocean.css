@@ -372,10 +372,52 @@ header{
   color: #031b4e;
 }
 
+/* Creazione sezione features */
+.features{
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
 
+.features-header>h2{
+  font-size: 36px;
+  letter-spacing: -.9px;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 16px;
+  color: #031b4e;
+}
 
+.features-main{
+  margin-top: 64px;
+}
 
+.features-main img{
+  width: 60px;
+  height: 60px;
+  margin-bottom: 16px;
+}
 
+.features-main h4{
+  color: #031b4e;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.features-main p{
+  color: rgba(3,27,78,.7);
+  margin:16px 0;
+  font-size: 18px;
+}
+
+.features-footer a{
+  font-weight: 600;
+}
+
+.features-footer a:hover{
+  text-decoration: none;
+  color: #007bff;
+}
 
 @media all and (min-width: 960px){
     header {
