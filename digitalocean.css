@@ -222,7 +222,7 @@ header{
 /* Creazione deploy section */
 
 .deploy{
-  padding-top: 120px;
+  padding: 120px 0;
 }
 
 .deploy-header> h2{
@@ -242,9 +242,10 @@ header{
   color: rgba(3,27,78,.7);
 }
 
-.deploy>.center-container{
+.center-container{
   width:900px;
-  
+  padding:0 16px 0 16px;
+  margin:auto;
 }
 
 .deploy-nav{
@@ -299,6 +300,81 @@ header{
   margin-top:0 0 16px;
   color: rgba(3,27,78,.7);
 }
+
+.designed{
+  background-color: #f3f5f9;
+  padding: 120px 0 120px 0;
+}
+
+.designed-header{
+  margin:auto;
+}
+
+.designed-header>h2{
+  font-size: 36px;
+  letter-spacing: -.9px;
+  margin: 0 0 16px;
+  color: #031b4e;
+  font-weight: 600;
+  line-height: 1.25;
+}
+
+.designed-header>p{
+  font-size: 20px;
+  margin-bottom: 64px;
+  margin-top: 16px;
+  color: rgba(3,27,78,.7);
+}
+
+.picture{
+  margin-left: 66px;
+  margin-right: 66px;
+}
+
+.designed .picture>img{
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+.designed .picture>img:hover{
+  cursor:grab;
+}
+
+.designed .picture p{
+  font-size: 18px;
+  line-height: 100%;
+  margin-top: 30px;
+  color: grey;
+}
+
+.dots>*{
+  color: #0069ff;
+  font-size: 10px;
+  margin-top: 20px;
+  margin-right:5px;
+}
+
+.dots>*:hover{
+  cursor:pointer;
+}
+
+.angle{
+  color:lightgrey;
+  font-size: 40px;
+}
+
+.angle:hover{
+  cursor: pointer;
+}
+
+.angle>.fa-angle-right{
+  color: #031b4e;
+}
+
+
+
+
 
 
 @media all and (min-width: 960px){
