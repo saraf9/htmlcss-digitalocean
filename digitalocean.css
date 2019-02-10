@@ -242,8 +242,9 @@ header{
   color: rgba(3,27,78,.7);
 }
 
-.center-container{
+.deploy>.center-container{
   width:900px;
+  
 }
 
 .deploy-nav{
@@ -270,13 +271,34 @@ header{
   font-size: 18px;
   text-decoration: none;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .deploy-nav a:hover{
   color: #031b4e;
 }
 
+.deploy-main{
+  padding:16px 0 0 16px;
+}
 
+.deploy-main img{
+  width:40px;
+  height:40px;
+}
+
+.deploy-main h3{
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.25;
+  color: #031b4e;
+  margin: 8px 0 16px;
+}
+
+.deploy-main p{
+  margin-top:0 0 16px;
+  color: rgba(3,27,78,.7);
+}
 
 
 @media all and (min-width: 960px){
